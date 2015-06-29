@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Pike Street Theme</title>
+		<title>Containing the Chaos</title>
 
-		<meta name="description" content="A Microsoft theme for the amazing reveal.js">
-		<meta name="author" content="Felix Rieseberg">
+		<meta name="description" content="Building and Scaling IoT Node Services on Azure Using SaaS and Containerization">
+		<meta name="author" content="Michael Lanzetta">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -22,6 +22,8 @@
 
 		<!-- Icons -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/joint.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -43,183 +45,325 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section data-background-video="https://compass-ssl.surface.com/assets/11/4e/114ea758-b2b9-4567-bedd-77086c3d80fb.mp4?n=vid-loop-100314.mp4">
+				<section data-background="assets/titlebg_wip.png" data-background-repeat="repeat">
 					<div class="accent">
-						<h2>Reveal.js Theme</h2>
-						<h1 class="accent">Pike Street</h1>
+						<h2 class="alt">Containing the Chaos</h2>
+						<h3 class="accent">Building and Scaling IoT Node Services on Azure Using SaaS and Containerization</h3>
 					</div>
-					<small>Felix Rieseberg<br />Open Source Engineer, Microsoft</small>
-
-					<aside class="notes">
-						Hi, I'm a Speaker Note. You can open the Speaker View by hitting [S] on your keyboard.
-					</aside>
-				</section>
-
-				<section class="inverse">
-					<h1>Icons</h1>
-					<div class="icon-group">
-						<i class="fa fa-user fa-fw"></i>
-						<i class="fa fa-users fa-fw"></i>
-						<i class="fa fa-university fa-fw"></i>
-					</div>
-					<p><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> is included, so go ahead and use some icons!</p>
-				</section>
-
-				<section data-background="assets/patternbg.png" data-background-size="700px" data-background-repeat="repeat">
-					<section>
-						<h1>Patterns & Fragments</h1>
-						<h1 class="alt">Moving Parts</h1>
-						<br />
-						<h3>
-							<span class="fragment fade-in"><i class="fa fa-rocket"></i> Hardware</span>
-							<span class="fragment fade-in"><i class="fa fa-mobile"></i> Software</span>
-							<span class="fragment fade-in"><i class="fa fa-cloud"></i> Data</span>
-							<span class="fragment fade-in"><i class="fa fa-lock"></i> Security</span>
-						</h3>
-					</section>
-				</section>
-
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<i class="fa fa-arrow-down fa-4x"></i>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<i class="fa fa-arrow-up fa-4x"></i>
-					</section>
-				</section>
-
-				<!-- Example for Fragment Styles -->
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment roll-in">roll-in</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-					</section>
-				</section>
-
-				<!-- Example for pretty code -->
-				<section>
-					<h2>Highlighted, Editable Code!</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+					<small>Michael Lanzetta<br />Open Source Engineer, Microsoft</small>
 				</section>
 
 				<section>
-					<h2>Code Editors</h2>
-					<p>The beauty of HTML5 & JavaScript: Embed whatever you want, including code editors like JSBin.</p>
-					<a class="jsbin-embed" href="http://jsbin.com/kutobaqobu/2/embed?js,console">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					<h1>Internet of Things</h1>
+                    <br/>
+					<h3>
+                        <span class="fragment fade-in"><i class="fa fa-thumbs-up"></i> It's great!</span><br/>
+                        <span class="fragment fade-in"><i class="fa fa-warning"></i> However, two minor problems...</span><br/>
+                    </h3>
 				</section>
 
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
+				<section data-background="assets/the_internet.png" data-background-size="80%" data-background-position="center top">
+					<h1 class="alt dark">The Internet</h1>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>TCP requires setup/teardown</li>
+                            <li>UDP is unreliable and out-of-order</li>
+                            <li>Security is expensive, and prone to exploits</li>
+                            <li>Connections get dropped</li>
+                            <li>Servers fail</li>
+                        </ul>
+                    </aside>
 				</section>
 
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
+                <section data-background="assets/things.png" data-background-size="80%" data-background-position="center top">
+                    <h1 class="alt dark">Things</h1>
 
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							<tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							<tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							<tr>
-						</tbody>
-					</table>
-				</section>
+                    <aside class="notes">
+                        <ul>
+                            <li>Every device is different - different capabilities, memory footprints</li>
+                            <li>TesselV1 runs “Node”, but it’s compiling to Lua and most modules don’t work</li>
+                            <li>Hubs in the home are a threat vector</li>
+                            <li>Devices can be hacked</li>
+                        </ul>
+                    </aside>
+                </section>
 
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
+                <section>
+                    <h1>In This Presentation</h1>
+                    <h3>
+                        <span class="fragment fade-in"><i class="fa fa-rocket"></i> I solve all of these problems</span><br/>
+                        <span class="fragment fade-in"><i class="fa fa-paper-plane"></i> ...well, most of these problems</span><br/>
+                        <span class="fragment fade-in"><i class="fa fa-bicycle"></i> ...well, some of these problems</span><br/>
+                    </h3>
 
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a speaker view. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
+                    <aside class="notes">
+                        Turns out these problems are all hard. We solve some (identity, transport, scaling), but others
+                        will require changes from all IoT hardware manufacturers and a general maturing of the industry
+                        and consumers. We leave those as an exercise to the reader.
+                    </aside>
+                </section>
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
+                <section>
+                    <h1><a href="http://nitrogen.io/">Nitrogen.js</a></h1>
+                    <h2><i>Our (other) IoT Solution</i></h2>
+                    <h3>
+                        <ul>
+                            <li><i class="fa fa-cloud"></i> Runs locally, or in any cloud</li>
+                            <li>Common protocols supported (e.g. MQTT)</li>
+                            <li>Can write to many destinations (Mongo, Azure Tables, EventHub, Qpidd)</li>
+                            <li>Interface-based implementation</li>
+                            <li>Identity, registration, batching, permissioning</li>
+                        </ul>
+                    </h3>
+                </section>
 
+                <!--
+                <section>
+                    <h1>Nitrogen Architecture</h1>
+                    <div id="arch_diag" class="diagram"></div>
+                </section>
+-->
+                <section>
+                    <h1>Nitrogen Architecture</h1>
+                    <img src="assets/nitrogen_architecture.png"/>
+
+                    <aside class="notes">
+                        Nitrogen is a layered Node.js-based IoT solution - which basically means it's a bunch of loosely-coupled
+                        services that talk to one another. Devices register themselves with the service, and then they or their
+                        local hubs talk to the API "front-door", which sends their messages to an ingestion endpoint for their particular identity.
+
+                        Applications talk to the API "front-door" to get data for their dashboards.
+
+                        Messages get persisted in one or more "archives", and also get sent to any other downstream listeners that
+                        are registered.
+
+                        This allows us to do things like build a single ingestion-layer that can listen in on both car and house
+                        telemetry data, and send the car data on to an Event Hub instance which pushes it into our Storm pipeline, and
+                        eventually winds up calling our Azure Machine Learning model.
+                    </aside>
+                </section>
+
+                <section>
+                    <h1>Oxide</h1>
+                    <img src="assets/oxide.png"/><br/>
+                    <div>
+                        <span><i class="fa fa-arrow-right"></i> IoT Portal for the user</span><br/>
+                        <span class="fragment fade-in"><i class="fa fa-arrow-right"></i> Built using Ember-cli</span><br/>
+                    </div>
+
+                    <aside class="notes">
+                        My colleague says Ember’s great, and I believe him because he’s smarter than I am.
+                        Of course, he also says JS is a great language so his judgment is obviously impaired.
+                    </aside>
+                </section>
+
+                <section data-background-video="">
+                    <h1 class="alt">Our Use-Case:<br/>Car Telemetry</h1>
+
+                    <aside class="notes">
+                        We're using Nitrogen for a bunch of different applications within Microsoft and with both
+                        startups and enterprise partners, but I wanted to focus on the example of car telemetry data
+                        for this talk, as the data size even for our initial rollout is large enough to force us to
+                        deal with our deployment issues.
+                    </aside>
+                </section>
+
+                <section>
+                    <h1>Sizing the Deployment</h1>
+                    <section>
+                        <ul>
+                            <li>We send up roughly 2 messages a second during operation of the vehicle</li>
+                            <li>37% peak concurrent usage of car fleet is typical</li>
+                            <li>Design goal of monitoring car fleet of 30,000 vehicles</li>
+                            <li>Deployment designed to be capable of 60% usage of fleet</li>
+                            <li><i class="fa fa-arrow-right"></i> Need to be able to support 60k messages/sec load from car fleet</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Each ingestion instance can handle roughly 1000 messages/second</li>
+                            <li><i class="fa fa-arrow-right"></i> 60 ingestion instances</li>
+                            <li><i class="fa fa-arrow-right"></i> 20 frontdoor instances</li>
+                            <li><i class="fa fa-arrow-right"></i> 10 consumption instances</li>
+                            <li><i class="fa fa-arrow-right"></i> 5 device registry instances</li>
+                            <li class="fragment fade-in">So... roughly 100 servers in total</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <h1>Deploying Nitrogen</h1>
+                    <h2>Peeling the DevOps Onion</h2>
+                    <ul>
+                        <li><img src="assets/docker_micro.png" class="noborder"/> Docker</li>
+                        <li>CoreOS</li>
+                        <li>Deis</li>
+                    </ul>
+
+                    <aside class="notes">
+                        With so many machines to deploy, you need to shift away from individual machines or even VMs and
+                        start focusing on how you can make repeatable deployments across your entire fleet. A host of new
+                        DevOps technologies are out there to help make that happen, and I think we've tried pretty much all
+                        of them. Not all of them play well with Azure, but our goal is to take that pain so you don't have to.
+                    </aside>
+                </section>
+
+                <section data-background="assets/vm_vs_container.png" data-background-size="80%">
+                    <aside class="notes">
+                        Docker shifts your mental deployment model from VMs to the concept of "containers". These encapsulate your
+                        application, and all run within the Docker framework on your Host OS - reducing your isolation level
+                        between them, but making them much faster to start and stop, and much easier to build.
+                    </aside>
+                </section>
+
+                <section>
+                    <h1>Our Nginx Dockerfile</h1>
+                    <pre><code data-trim contenteditable>
+FROM nitrogen/ubuntu:14.04
+MAINTAINER Tim Park &lt;tpark@microsoft.com&gt;
+
+# install confd
+RUN \
+wget https://github.com/kelseyhightower/confd/releases/download/v0.6.3/confd-0.6.3-linux-amd64 && \
+sudo mv confd-0.6.3-linux-amd64 /usr/local/bin/confd && \
+sudo chmod +x /usr/local/bin/confd
+
+# install and configure nginx.
+RUN \
+add-apt-repository -y ppa:nginx/stable && \
+apt-get update && \
+apt-get install -y nginx && \
+rm -rf /var/lib/apt/lists/* && \
+echo "\ndaemon off;" >> /etc/nginx/nginx.conf && \
+chown -R www-data:www-data /var/lib/nginx
+
+# setup and run start script.
+ADD start.sh /var/www/start.sh
+RUN chmod +x /var/www/start.sh
+
+CMD ./var/www/start.sh
+
+# expose ports.
+EXPOSE 80
+EXPOSE 443
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h1>CoreOS</h1>
+                    <div class="col2">
+                        <div>
+                            <ul>
+                                <li>Stripped down Linux distro</li>
+                                <li>Optimized to run containers</li>
+                                <li>Autoupdating</li>
+                                <li>Systemd / Fleetctl / etcd</li>
+                                <li>Cores/Containers, not VMs</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="assets/coreos.png"/>
+                        </div>
+                    </div>
+
+                    <aside class="notes">
+                        CoreOS is a stripped-down Linux distro specially-built for containerization.
+
+                        It updates itself, and uses etcd for configuration management, and an extension of systemd called
+                        fleetctl for managing fleet-wide initialization.
+                    </aside>
+                </section>
+
+                <section data-background="assets/deis_workflow_trans.png" data-background-size="80%">
+                    <aside class="notes">
+                        Deis takes this whole "configuration-based deployment" thing to the next level, allowing you to
+                        "git push" your deployment configuration and have it automatically deployed out to your fleet.
+                    </aside>
+                </section>
+
+                <section>
+                    <h1>Scaling the Rest</h1>
+                    <ul>
+                        <li>Nitrogen is identity, ingest and routing</li>
+                        <li>Actually processing all of the incoming data takes more work</li>
+                        <li>We pump all of our data into Azure Event Hubs
+                            <ul>
+                                <li>Hubs can scale to orders of magnitude over what we're currently driving</li>
+                                <li>Event Hubs can output into Storm/Spark pipelines</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <aside class="notes">
+                        However, that didn't come easy...
+                    </aside>
+                </section>
+
+                <section>
+                    <h1>Supporting Azure Event Hub on Node</h1>
+                    <h3>
+                        <ul>
+                            <li>Event Hub lets us ignore "downstream"</li>
+                            <li>Simple REST-based POST for messages</li>
+                            <li class="fragment fade-in">...unfortunately, too slow</li>
+                            <li class="fragment fade-in">...<i class="fa fa-fire"> but</i> it supports AMQP</li>
+                            <li class="fragment fade-in">...<i class="fa fa-fire-extinguisher"> but</i> only AMQP 1.0, for which there are no modules</li>
+                        </ul>
+                    </h3>
+
+                    <aside class="notes">
+                        AMQP 1.0 is, in fact, a scorched-earth rewrite of the previous version, sharing almost nothing but the name.
+                    </aside>
+                </section>
+
+                <section>
+                    <h1>AMQP 1.0</h1>
+                    <h2 class="accent">Implementing binary protocols in node is super fun!</h2>
+                    <h3>
+                        <ul>
+                            <li>No 64-bit integers</li>
+                            <li>Bit-twiddling is... <a href="http://www.mikelanzetta.com/2015/01/i-miss-integers/">special</a></li>
+                            <li>Keeping track of buffers (thanks <a href="https://www.npmjs.com/package/bl">bl!</a>)</li>
+                            <li>Promisification in the face of failures</li>
+                        </ul>
+                    </h3>
+
+                    <aside class="notes">
+                        We're still not sure we have a handle on that last one.
+                    </aside>
+                </section>
+
+                <section data-background="assets/yuno_azureiot.png" data-background-size="60%">
+                    <aside class="notes">
+                        <ul>
+                            <li>Azure IoT wasn't available when we started</li>
+                            <li>... and, it still isn't</li>
+                            <li>We wanted something that worked <i>with</i> Azure, but didn't <i>require</i> Azure</li>
+                            <li>We have a friendly(-ish) relationship with the team, giving them feedback and helping where we can</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h1>For More Information</h1>
+                    <h3>
+                        <span><i class="fa fa-code"></i> <a href="http://nitrogen.io/">Nitrogen.io Main Site</a></span><br/>
+                        <span><i class="fa fa-github"></i> <a href="https://github.com/nitrogenjs">NitrogenJS Github</a></span><br/>
+                        <span><i class="fa fa-code-fork"></i> <a href="https://github.com/noodlefrenzy/node-amqp10">AMQP 1.0 Node Github (Feel free to help!)</a></span><br/>
+                        <span><i class="fa fa-slideshare"></i> <a href="https://github.com/noodlefrenzy/Cascadia2015-NitrogenPres">These Slides</a></span><br/>
+                    </h3>
+                </section>
+
+                <section>
+                    <h1>Thanks For Listening!</h1>
+                    <h3>
+                        <span><i class="fa fa-newspaper-o"></i> <a href="http://felixrieseberg.com/open-source-engineer-microsoft/">What's a Microsoft OSS Engineer?</a></span><br/>
+                        <span><i class="fa fa-newspaper-o"></i> <a href="http://www.mikelanzetta.com">My Blog</a></span><br/>
+                        <span><i class="fa fa-github"></i> <a href="https://github.com/noodlefrenzy">My Github</a></span><br/>
+                        <span><i class="fa fa-twitter"></i> <a href="https://twitter.com/noodlefrenzy">My Twitter</a></span><br/>
+                    </h3>
+                </section>
 			</div>
 
 		</div>
@@ -228,5 +372,34 @@ function linkify( selector ) {
 		<script src="js/reveal.js"></script>
 		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 		<script src="js/pikestreet.js"></script>
+        <script src="js/joint.js"></script>
+
+        <script>
+            var graph = new joint.dia.Graph;
+
+            var paper = new joint.dia.Paper({
+                el: $('#arch_diag'),
+                width: 600,
+                height: 200,
+                model: graph,
+                gridSize: 1
+            });
+
+            var rect = new joint.shapes.basic.Rect({
+                position: { x: 100, y: 30 },
+                size: { width: 100, height: 30 },
+                attrs: { rect: { fill: 'blue' }, text: { text: 'my box', fill: 'white' } }
+            });
+
+            var rect2 = rect.clone();
+            rect2.translate(300);
+
+            var link = new joint.dia.Link({
+                source: { id: rect.id },
+                target: { id: rect2.id }
+            });
+
+            graph.addCells([rect, rect2, link]);
+        </script>
 	</body>
 </html>
