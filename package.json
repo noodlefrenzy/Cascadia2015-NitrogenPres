@@ -1,22 +1,22 @@
 {
-  "name": "Reveal-PikeStreet",
+  "name": "cascadiafest-nitrogen",
   "version": "0.1.0",
-  "description": "Pike Street Theme for Reveal.js",
+  "description": "CascadiaFest 2015 Presentation on Nitrogen.js using Reveal.js",
   "scripts": {
     "test": "grunt test",
     "start": ""
   },
   "author": {
-    "name": "Felix Rieseberg",
-    "email": "felix@felixrieseberg.com",
-    "web": "http://www.felixrieseberg.com"
+    "name": "Michael Lanzetta",
+    "email": "milanz@microsoft.com",
+    "web": "http://www.mikelanzetta.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/felixrieseberg/Reveal-PikeStreet"
+    "url": "git://github.com/noodlefrenzy/Cascadia2015-NitrogenPres"
   },
   "engines": {
-    "node": "~0.10.0"
+    "node": "~0.12.0"
   },
   "dependencies": {
     "underscore": "~1.5.1",
@@ -39,7 +39,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/felixrieseberg/Reveal-PikeStreet/blob/master/LICENSE"
+      "url": "https://github.com/noodlefrenzy/Cascadia2015-NitrogenPres/blob/master/LICENSE"
     }
   ]
 }
