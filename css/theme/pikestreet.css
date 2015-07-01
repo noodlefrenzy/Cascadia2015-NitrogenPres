@@ -50,6 +50,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
   font-family: 'Pacifico';
   font-weight: bolder;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); }
+.reveal .dark {
+  color: #EA6B66; }
 
 .reveal .accent h1 {
   font-family: 'Pacifico';
@@ -77,6 +79,13 @@ div.icon-group {
   word-wrap: normal;
   background: #fff;
   color: #333; }
+
+.reveal .col2 {
+  -webkit-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2; }
 
 .reveal pre code::selection {
   color: #333;
