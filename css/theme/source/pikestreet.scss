@@ -110,6 +110,10 @@ section.has-light-background
         font-weight: bolder;
         text-shadow: 2px 2px 6px rgba(0, 0, 0, .5);
     }
+
+    .dark {
+        color: #EA6B66;
+    }
 }
 
 // Accent --------------------------------------
@@ -155,6 +159,12 @@ div.icon-group {
     word-wrap: normal;
     background: #fff;
     color: #333;
+}
+
+.reveal .col2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
 
 .reveal pre code::selection {

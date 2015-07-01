@@ -1,0 +1,16 @@
+{
+  "name": "Cascadia2015-NitrogenPres",
+  "version": "0.0.0",
+  "homepage": "https://github.com/noodlefrenzy/Cascadia2015-NitrogenPres",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jointjs": "~0.9.3"
+  }
+}
