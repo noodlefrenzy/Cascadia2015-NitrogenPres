@@ -119,6 +119,7 @@
                     </h4>
                 </section>
 
+                <!-- no-Tim
                 <section data-background="assets/birth_of_nitrogen_1.png" data-background-size="80%">
                     <aside class="notes">
                         How did we solve these problems? Well, a man named Tim Park...
@@ -146,6 +147,7 @@
                         working on in his time off... Hence, Nitrogen.
                     </aside>
                 </section>
+                -->
 
                 <section>
                     <h1>Nitrogen Architecture</h1>
@@ -185,7 +187,9 @@
                     </aside>
                 </section>
 
-                <!-- <section data-background-video="assets/dashcams.mp4"> -->
+                <!--
+                <section data-background-video="assets/dashcamsv3.mp4">
+                -->
                 <section data-state="carvideo">
                     <h1 class="alt">Our Use-Case:<br/>Car Telemetry</h1>
                     <aside class="notes">
@@ -254,7 +258,7 @@
                 <section data-background="assets/dockerhub_frontpage.png" data-background-size="80%">
 
                 </section>
-                
+
                 <section>
                     <h1>Our Nginx Dockerfile</h1>
                     <pre><code data-trim contenteditable>
@@ -401,6 +405,27 @@ amqp10:framing Sending frame: AttachFrame: {"type":"Buffer","data":[0,0,0,116,2,
                 </section>
 
                 <section>
+                    <h1>Why We're Great</h1>
+                    <h3>
+                        <ul>
+                            <li>No native code dependencies</li>
+                            <li>Fully promisified API</li>
+                            <li>Policy-based configuration</li>
+                            <li>Use it "dumb", or "go deep" and specify AMQP internals</li>
+                        </ul>
+                    </h3>
+
+                    <aside class="notes">
+                        Our module is currently moving towards a 2.0 release, with a fully promise-oriented
+                        API, events for all major points in the protocol, solid (some might say too verbose)
+                        debugging output, configuration based on inheritable policies that allow overriding
+                        of everything from fine-grained settings to flow-control functions.
+
+                        It's built entirely on Node's libraries with _no_ native code dependencies, meaning it
+                        should be usable in almost any environment that can run Node - even Windows!
+                    </aside>
+                </section>
+                <section>
                     <h1>Coders/Users Needed</h1>
                     <div class="col2">
                         <div><img src="assets/we_want_you.jpg" width="400"/></div>
@@ -435,12 +460,12 @@ amqp10:framing Sending frame: AttachFrame: {"type":"Buffer","data":[0,0,0,116,2,
 
                 <section>
                     <h1>Thanks For Listening!</h1>
-                    <h3 style="text-align: left;">
+                    <h4 style="text-align: left;">
                         <span><i class="fa fa-newspaper-o"></i> <a href="http://felixrieseberg.com/open-source-engineer-microsoft/">What's a Microsoft OSS Engineer?</a></span><br/>
-                        <span><i class="fa fa-newspaper-o"></i> <a href="http://www.mikelanzetta.com">My Blog</a></span><br/>
-                        <span><i class="fa fa-github"></i> <a href="https://github.com/noodlefrenzy">My Github</a></span><br/>
-                        <span><i class="fa fa-twitter"></i> <a href="https://twitter.com/noodlefrenzy">My Twitter</a></span><br/>
-                    </h3>
+                        <span><i class="fa fa-newspaper-o"></i> <a href="http://www.mikelanzetta.com">My Blog</a>: http://mikelanzetta.com</span><br/>
+                        <span><i class="fa fa-github"></i> <a href="https://github.com/noodlefrenzy">My Github</a>: https://github.com/noodlefrenzy</span><br/>
+                        <span><i class="fa fa-twitter"></i> <a href="https://twitter.com/noodlefrenzy">My Twitter</a>: @noodlefrenzy</span><br/>
+                    </h4>
                 </section>
 			</div>
 
